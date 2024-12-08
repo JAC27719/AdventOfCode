@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AdventOfCodeCLI": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "session": "53616c7465645f5f3b4d3f0c5c58ad5f3c229ee434456a81ce9953fb4e7a7fa3a69d2bc53a547ac5e9ee5fecfaeb8c4cfa674fd93b60f65b58d758b8f12885a9"
+      }
+    }
+  }
+}
