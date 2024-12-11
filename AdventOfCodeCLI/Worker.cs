@@ -51,6 +51,4 @@ namespace AdventOfCodeCLI
             challengeSolver.Solve(_httpClient).Wait();
         }
     }
-
-
-}
+ }

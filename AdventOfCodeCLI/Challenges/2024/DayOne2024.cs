@@ -32,9 +32,10 @@ namespace AdventOfCodeCLI.Challenges._2024
             using (StringReader reader = new StringReader(content))
             {
                 string line;
+                string delimeter = "   ";
                 while ((line = reader.ReadLine()) != null)
                 {
-                    var splitLines = line.Split("   ");
+                    var splitLines = line.Split(delimeter);
 
                     Debug.Assert(splitLines.Length == 2);
 
