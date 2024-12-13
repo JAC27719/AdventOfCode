@@ -62,6 +62,9 @@ namespace AdventOfCodeCLI.Challenges
                         case ChallengeDay.Three:
                             solver = new DayThree2024(_logger);
                             break;
+                        case ChallengeDay.Four:
+                            solver = new DayFour2024(_logger);
+                            break;
                         default:
                             throw new NotImplementedException("Challenge has not yet been implemented for the given day in 2024!");
                     }

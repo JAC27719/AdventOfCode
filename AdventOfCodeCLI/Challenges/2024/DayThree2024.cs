@@ -23,7 +23,7 @@ namespace AdventOfCodeCLI.Challenges._2024
 
         public async Task Solve(HttpClient httpClient)
         {
-            _logger.LogInformation("Solving problem for day two of 2024");
+            _logger.LogInformation("Solving problem for day three of 2024");
             var res = await httpClient.GetAsync(httpClient.BaseAddress);
             var content = await res.Content.ReadAsStringAsync();
 
